@@ -3,42 +3,55 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <title>Fågelholken</title>
 </head>
-  <!-- Detta är menyn, tog två länkar. vet ej om vi vill ha en till? Vill få den till höger ist för vänster-->
-  <div class="meny">
-    <a href="Startsida" class="active">Startsida</a>
-    <a href="Webbshop">Webbshop</a>
+<body>
+ 
+
+<header>
+ 
+ <!--Logotyp, vill vi byta?-->
+  <div class="logoimg">
+    <img src="img/fagelholk_logo.png" alt="Logotyp med fågelholk">
   </div>
 
-<!--Logotyp, vill vi byta?-->
-<div class="logoimg">
-  <img src="img/fagelholk_logo.png" alt="Logotyp med fågelholk" style="width:200px;height:200px;">
-</div>
+
+ <!-- Detta är menyn, tog två länkar. vet ej om vi vill ha en till? Vill få den till höger ist för vänster-->
+ <ul class="meny">
+  <li><a href="Startsida" class="active">Startsida</a></li>
+  <li><a href="Webbshop">Webbshop</a></li>
+</ul>
+
+</header>
 
 <!--Rubrik & slogan på hemsidsan-->
 <div class="slogan">
+    <img src="img/skogstor.jpg" alt="Skog">
   <h1>Fågelholken</h1>
-    <h2>Liten holk. Stor gärning.</h2>
-  </div>
+    <h2 id="sloganh2">Liten holk. Stor gärning.</h2>
+  
 
 <!-- Div/container för brödtext på hemsida -->
   <div class="btext">
     <p>
       Många av våra fåglar behöver tak över huvudet och skyddade platser för att bygga bo.
-      Utan holkar lyckas de inte föröka sig. Var med och bidra till fågelsång i de svenska skogarna. Bli medlem nu!
+      Utan holkar lyckas de inte föröka sig. Var med och bidra till fågelsång i de svenska skogarna.
     </p>
-  </div>
 
-    <!--Formuläret man var tvungen att ha med submit-knapp osm ej fungerar-->
-<div class="registerform">
-  <form>
+    <h2>Bli medlem nu!</h2>
+
+     <!--Formuläret man var tvungen att ha med submit-knapp osm ej fungerar-->
+  <form class="registerform">
     <label for="fname">Fullständigt namn:</label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="mail">E-postadress:</label><br>
     <input type="email" id="mail" name="mail">
-    <input type="submit">
   </form>
+  <button>Bli medlem</button>
+  </div>
 </div>
+
+ 
 </body>
 </html>
