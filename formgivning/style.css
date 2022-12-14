@@ -1,159 +1,162 @@
 
 *{
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 h1, h2, p{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-  li, a, button {
-    text-decoration: none;
-    color: black;
-    list-style-type: none;
-  }
+li, a, button {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
 
-  header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .meny li{
-    display: inline-block;
-  }
+.meny li{
+  display: inline-block;
+}
 
 .meny{
-    margin-right: 10px;
-    text-align: right;
+  margin-right: 10px;
+  text-align: right;
 }
-  .meny li a{
-    padding: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-  }
+.meny li a{
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
 
-  .logoimg img{
-    width: 70%;
-    height: 70%;
-    margin-left: 10px;
-  }
+.logoimg img{
+  width: 70%;
+  height: 70%;
+  margin-left: 10px;
+}
 
-  .slogan img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    opacity: 70%;
-  }
+.slogan img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 70%;
+}
 
-  .slogan h1{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 200%;
-  }
-  #sloganh2{
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 90%;
-    background-color: rgba(255, 255, 255, 0.706);
-    max-width: 300px;
-    text-align: center;
-    padding-bottom: 20px;
-  }
+.slogan h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200%;
+}
+#sloganh2{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90%;
+  background-color: rgba(255, 255, 255, 0.706);
+  max-width: 300px;
+  text-align: center;
+}
 
+.btext{
+  background-color: white;
+  width: 70%;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+.btext p{
+  font-size: small;
+  line-height: 160%;
+  text-align: center;
+}
+
+.btext h2{
+  background-color: none;
+  font-size: small;
+  text-align: center;
+}
+
+.registerform{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+button{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kontakt {
+  font-size: small;
+  margin-left: 20px;
+}
+
+footer{
+  background-color: rgb(232, 241, 241);
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 350px) {
+  .logoimg img {
+      width: 30%;
+      height: 30%;
+      margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 570px) {
   .btext{
-    background-color: white;
-    width: 70%;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 5px;
-    padding-bottom: 50px;
-  }
-  .btext p{
-    font-size: small;
-    line-height: 160%;
-    text-align: center;
-  }
+      max-width: 550px;
+      padding: 50px;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 
-  .btext h2{
-    background-color: none;
-    font-size: small;
-    text-align: center;
-  }
+}
+.slogan h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 250%;
+  margin: auto;
+}
 
-  .registerform{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-  }
-
-  button{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .kontakt {
-    font-size: small;
-    margin-left: 20px;
-  }
-
-  footer{
-    background-color: rgb(232, 241, 241);
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    top: 110%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  @media only screen and (min-width: 350px) {
-    .logoimg img {
-        width: 30%;
-        height: 30%;
-        margin-left: 20px;
-      }
-  }
-
-  @media only screen and (min-width: 570px) {
-    .btext{
-        max-width: 400px;
-
-  }
-  .slogan h1{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 250%;
-    margin: auto;
-  }
-
-  #sloganh2{
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 130%;
-    margin-top: auto;
-  }
-  .meny{
-    margin-right: 40px;
+#sloganh2{
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 130%;
+  margin-top: auto;
+}
+.meny{
+  margin-right: 40px;
 }
 
 .meny li a{
-    padding: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-  }
-  }
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+}
